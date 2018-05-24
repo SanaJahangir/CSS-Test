@@ -1,0 +1,171 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-white{
+	margin: 0px;
+}
+
+.navbar-brand{
+	display: no-flex;
+	color: black;
+}
+
+.navbar-brand-1{
+	color: #2176ff;
+	margin: 10px;
+	justify-content: center;
+}
+
+.btn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.heading-1{
+	color: #2176ff;
+	font-size: 90px;
+	font-weight: bold;
+	margin-left: 175px;
+}
+
+section{
+	display: grid;
+    grid-template-columns: 21em 21em 21em;
+    grid-template-rows: 10em 10em 10em;
+    grid-gap: 32px;
+    color: white;
+    margin: 100px;
+}
+
+section > div{
+	padding: 20px;
+	height: 170px;
+	width: 344px;
+	padding: 30px;
+}
+
+h1{
+	color: white;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0;
+}
+
+section > div:nth-child(1){
+    background-color: #ff6d56;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(2){
+    background-color: #2176ff;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(3){
+    background-color: #fbc227;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(4){
+    background-color: #3ec446;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(5){
+    background-color: #ea3a3a;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(6){
+    background-color: #42cdb2;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(7){
+    background-color: #2176ff;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(8){
+    background-color: #ff6d56;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(9){
+    background-color: #fa99b4;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(10){
+    background-color: #ea3a3a;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(11){
+    background-color: #42cdb2;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(12){
+    background-color: #3ec446;
+    color: white;
+    padding-left: 16px;
+}
+
+section > div:nth-child(13){
+    background-color: #42cdb2;
+    color: white;
+    padding-left: 16px;
+    margin-left: 195px;
+}
+
+section > div:nth-child(14){
+    background-color: #2176ff;
+    color: white;
+    padding-left: 16px;
+    margin-left: 195px;
+}
+
+footer{
+	background-color: #21303b;
+	padding: 100px;
+	margin-bottom: 0px;
+}
+
+footer > a{
+	color: white;
+	margin: 1.2em;
+	padding: 1em;
+	font-size: 12px;
+}
+
+footer > a:hover{
+	color: #fde093;
+}
+
+section > div:hover{
+	background-color: #21303b;
+
+}
